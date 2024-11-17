@@ -1,0 +1,24 @@
+{
+  "originHash" : "25aae1df7f49904d187a95fd57fddc849eb3a35ffdc9c93c7531186cd14f2923",
+  "pins" : [
+    {
+      "identity" : "bencodingkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Samasaur1/BencodingKit",
+      "state" : {
+        "revision" : "70dafbf334fb401109c8bf5aa2b10dbb19e69a9f",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "rainbow",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Rainbow",
+      "state" : {
+        "revision" : "e0dada9cd44e3fa7ec3b867e49a8ddbf543e3df3",
+        "version" : "4.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}
