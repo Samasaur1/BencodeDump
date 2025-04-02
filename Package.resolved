@@ -1,13 +1,13 @@
 {
-  "originHash" : "25aae1df7f49904d187a95fd57fddc849eb3a35ffdc9c93c7531186cd14f2923",
+  "originHash" : "a9db5a0b382bd7c42119836e80bbf6e918a1e9d9568a85851d49fd5d56591de0",
   "pins" : [
     {
       "identity" : "bencodingkit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Samasaur1/BencodingKit",
       "state" : {
-        "revision" : "70dafbf334fb401109c8bf5aa2b10dbb19e69a9f",
-        "version" : "1.0.0"
+        "branch" : "fixes-for-bencodedump",
+        "revision" : "dd827f53e9f670fb396e91b8af6a1dd6312b4eec"
       }
     },
     {

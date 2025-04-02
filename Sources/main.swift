@@ -34,6 +34,8 @@ func display(_ obj: Any, indent: String = "") {
         print("\(indent)\("i".green)\(x)\("e".green)")
     case let x as String:
         print("\(indent)\("\(x.count):".yellow)\(x)")
+    case let x as Data:
+        print("\(indent)\("\(x.count):".yellow)\("<data>".magenta)")
     default:
         print("\(indent)Unknown type")
     }

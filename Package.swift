@@ -9,7 +9,7 @@ let package = Package(
     products: [ .executable(name: "bdump", targets: ["BencodeDump"])],
     dependencies: [
         .package(url: "https://github.com/onevcat/Rainbow", .upToNextMajor(from: "4.0.0")),
-        .package(url: "https://github.com/Samasaur1/BencodingKit", from: "1.0.0")
+        .package(url: "https://github.com/Samasaur1/BencodingKit", branch: "fixes-for-bencodedump")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
